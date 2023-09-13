@@ -22,6 +22,16 @@ body {
   background-color: #333;
 }
 
+.header {
+  color: #fff;
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 3px 5px rgb(57 63 72 / 30%);
+  z-index: 99999;
+  background-color: rgba(000, 0, 0, 0.5) !important;
+}
+
 #navbar a {
   float: left;
   display: block;
@@ -38,7 +48,7 @@ body {
 }
 
 #navbar a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 
@@ -57,8 +67,24 @@ body {
 }
 
 a.anchor {
-    display: block;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+.linkBtn {
+  background: #15171a;
+  border: none;
+  border-radius: 0px;
+}
+
+.linkBtn:hover {
+  background: #15171a;
+}
+
+.boxContainer {
+  background: rgba(21, 23, 26, 0.5);
+  border-radius: 0px;
+  color: white;
 }
